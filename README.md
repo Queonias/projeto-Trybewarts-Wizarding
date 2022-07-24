@@ -1,4 +1,4 @@
-# Projeto Flexbox - Flex Turismos
+# projeto Trybewarts Wizarding School! 🧙
 
 ## 💻 Sobre o projeto
 
