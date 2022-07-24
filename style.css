@@ -18,6 +18,12 @@ body {
   align-items: center;
 }
 
+
+.container-xl {
+  width: 1500px;
+  margin: auto;
+}
+
 main {
   display: flex;
   justify-content: space-around;
@@ -29,18 +35,25 @@ main {
 #evaluation-form {
   flex-direction: column;
   display: flex;
-  width: 675px;
+  flex-grow: 2;
+  /* background-color: blue; */
+  height: 90%;
+  /* align-self:center; */
+  /* align-content:center; */
+  /* align-items: center; */
+  justify-content:center;
+  margin-left: 5%;
 }
 
 #trybewarts-forms-logo {
   height: 500px;
+  flex-grow: 1;
 }
 
 #label-family {
   display: flex;
   flex-direction: column;
 }
-
 #end-family {
   display: flex;
   flex-direction: column;
@@ -65,13 +78,32 @@ main {
   font-size: 50px;
 }
 
-#email {
+.titulo {
+  align-self:center;
+  /* align-content:center; */
+  /* align-items: center; */
+}
+
+#email, #input-name, #input-lastname, #input-email {
   margin-right: 20px;
   height: 20px;
   width: 160px;
   padding: 10px;
   border-radius: 5px;
   border: none;
+  
+}
+
+#input-name, #input-lastname, #input-email {
+  margin-right: 20px;
+  height: 20px;
+  width: 350px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 15px;
+  font-size: 20px;
+  /* background-color: rgb(207, 7, 7); */
 }
 
 #senha {
@@ -91,6 +123,23 @@ main {
   font-weight: 900;
   background-color: rgb(78, 44, 131);
   color: white;
+} 
+.casa {
+  font-size: 20px;
+  font-weight: 600;
+}
+#house {
+  width: 120px;
+  height: 40px;
+  border-radius: 9px;
+  font-size: 15px;
+  font-weight: 900;
+  /* background-color: rgb(78, 44, 131); */
+  /* color: white; */
+} 
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 30px white inset;
 }
 
 footer {
@@ -99,6 +148,6 @@ footer {
   align-items: center;
   justify-content: center;
   height: 5vh;
-  color: rgb(248, 248, 248);
+  color: rgb(240, 238, 238);
   font-size: 20px;
 }
