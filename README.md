@@ -1,4 +1,4 @@
-# projeto Trybewarts Wizarding School! 🧙
+# Projeto Trybewarts Wizarding School! 🧙
 
 ## 💻 Sobre o projeto
 
